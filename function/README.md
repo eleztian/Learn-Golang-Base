@@ -1,12 +1,16 @@
 
-#Function
+# Function
 
-1. 支持多值返回
+1. 多值返回
+2. 函数值
+3. 可变参数
+4. defer
+5. 匿名函数
 
-```
-func (file *File) write(b []byte) (int, error)
-func (file *File) write(b []byte) (n int, err error) //命名返回值
-	
-```
 
-2. 
+
+
+
+
+
+

@@ -17,6 +17,7 @@ import "fmt"
 // panic。
 
 func throwPanicChoose(f func(int), arg int) (b bool) {
+
 	defer func() {
 		switch x := recover(); x {
 		case nil:
